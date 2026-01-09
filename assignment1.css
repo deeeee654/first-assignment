@@ -11,10 +11,26 @@ body {
   position: relative;
 }
 .mainpic {
-  background-image: url(https://t3.ftcdn.net/jpg/16/25/59/52/360_F_1625595232_P2uo8I1kOlK2ZJDIq1UiYiAZr8EqShPV.jpg);
+  background-image: url(/img/mainpic2.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.minifirstbar {
+  background-color: rgb(238, 233, 226, 0.801);
+  color: rgba(176, 93, 176, 0.801);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+  bottom: 30px;
+  position: absolute;
+  padding: 20px 10px;
+  margin-left: 600px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  outline: solid 2px white;
 }
 header {
   background-color: rgba(176, 93, 176, 0.801);
@@ -40,4 +56,23 @@ h2 {
 a {
   text-decoration: none;
   color: rgb(238, 233, 226);
+}
+.butt {
+  background-color: rgba(176, 93, 176, 0.801);
+  color: rgb(238, 233, 226);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: cursive;
+}
+.butt:hover {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(238, 233, 226);
+  color: rgb(176, 93, 176);
+}
+.linky:hover {
+  color: rgb(176, 93, 176);
 }
