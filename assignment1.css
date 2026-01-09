@@ -5,6 +5,17 @@ body {
   background-color: rgb(238, 233, 226);
   font-family: cursive;
 }
+.firstpart {
+  height: 100vh;
+  background-position: center;
+  position: relative;
+}
+.mainpic {
+  background-image: url(https://t3.ftcdn.net/jpg/16/25/59/52/360_F_1625595232_P2uo8I1kOlK2ZJDIq1UiYiAZr8EqShPV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 header {
   background-color: rgba(176, 93, 176, 0.801);
 }
