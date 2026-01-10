@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 .mainpic {
-  background-image: url(/img/mainpic2.png);
+  background-image: url("../img/mainpic2.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -61,18 +61,15 @@ a {
   background-color: rgba(176, 93, 176, 0.801);
   color: rgb(238, 233, 226);
   border: none;
-  padding: 10px 20px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: 1s;
   font-family: cursive;
 }
 .butt:hover {
-  width: 200px;
+  width: 300px;
   height: 100px;
-  background-color: rgb(238, 233, 226);
-  color: rgb(176, 93, 176);
-}
-.linky:hover {
-  color: rgb(176, 93, 176);
 }
