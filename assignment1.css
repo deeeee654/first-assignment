@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(238, 233, 226);
@@ -11,7 +12,7 @@ body {
   position: relative;
 }
 .mainpic {
-  background-image: url("../img/mainpic2.png");
+  background-image: url("https://i.ibb.co/60nKRNRV/mainpic2.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -31,9 +32,13 @@ body {
   font-size: 20px;
   font-weight: 1000;
   outline: solid 2px white;
+  z-index: 1;
 }
 header {
   background-color: rgba(176, 93, 176, 0.801);
+  z-index: 2;
+  position: fixed;
+  width: 100%;
 }
 h2 {
   font-family: blackadder itc, cursive;
