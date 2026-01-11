@@ -5,33 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <link rel="stylesheet" href="assignment1.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/">
     <title>Streetsy</title>
   </head>
   <body>
-    <div class="firstpart mainpic">
+    <div class="firstpart mainpic" id="home">
       <header>
         <nav class="thebar">
           <h2>Streetsyyy</h2>
           <ul class="linkline">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#">Gallery</a></li>
-            <li><a href="#">Styles</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#style">Styles</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
+      <main>
+        <i class="fa-solid fa-arrow-up" style="font-size: 36px;"></i>
       <div class="minifirstbar">
         <p>What does FASHION mean to you?</p>
         <br />
         <button class="butt">
-          <a href="#">
+          <a href="#about">
             Discover our <br />
             MEANING</a
           >
         </button>
       </div>
     </div>
-    <div class="firstpart subpic"></div>
+    <br />
+
+    <div class="firstpart subpic" id="about">
+      <div class="secbar">
+        <p>
+          Fashion is one of the very important and interesting ways to let
+          people know who you are and what you are about. <br />We are among
+          other fashion enthusiasts, one of the organisations very intentional
+          about helping other people discover their style and provide them with
+          resources to help them get started. <br />
+          Goodluck on your fashion journey!!
+        </p>
+        <button class="secbutt">
+          <a href="#contact">Ask questions!</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="styles" id="style">
+      <h2>STYLES</h2>
+      <br />
+      <div class="substyles">
+        <div class="ministyles">
+          <img src="https://i.ibb.co/S40Wv0pN/fash4.jpg" alt="fashion4pics" />
+          <p>Streetwear</p>
+        </div>
+        <div class="ministyles">
+          <img src="https://i.ibb.co/dJBhFw2s/coq1.webp" alt="coquette1" />
+          <p>Coquette</p>
+        </div>
+        <div class="ministyles">
+          <img src="https://i.ibb.co/FbRxWMds/alt1.webp" alt="alt1" />
+          <p>Alternative</p>
+        </div>
+        <div class="ministyles">
+          <img src="https://i.ibb.co/8L1fyYjW/y2k1.jpg" alt="y2k1" />
+          <p>Y2K</p>
+        </div>
+        <div class="ministyles">
+          <img src="https://i.ibb.co/m5Rmr3Dp/basic.jpg" alt="basic" />
+          <p>Basic</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="csection">
+      <div class="cfimage">
+        <img
+          src="https://i.ibb.co/RpY2CD57/aali.jpg"
+          alt="altfashiongirl"
+          width="500px"
+        />
+      </div>
+      <div id="contact">
+        <h1>CONTACT</h1>
+        <br />
+        <form class="form" method="post" autocomplete="on">
+          <label for="name">FULLNAME</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          /><br /><br />
+          <label for="email">EMAIL</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br /><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="20"
+            placeholder="Your Message"
+            required
+          ></textarea
+          ><br />
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="csimage">
+        <img
+          src="https://i.ibb.co/MyvWrqQG/fash2.jpg"
+          alt="fashionincar"
+          width="500px"
+        />
+      </div>
+    </div>
+    </main>
   </body>
 </html>
