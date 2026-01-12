@@ -215,3 +215,10 @@ a {
   height: 700px;
   width: 550px;
 }
+footer {
+  background-color: rgba(176, 93, 176, 0.801);
+  color: rgb(238, 233, 226);
+}
+footer p {
+  text-align: center;
+}
